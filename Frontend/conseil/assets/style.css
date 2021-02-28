@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centreTexte {
+  text-align: center;
+}
+.backColorVert {
+  background-color: rgba(173, 255, 47, 0.7);
+}
+.backColorBleu {
+  background-color: #244d78;
+}
+.colortexteVert {
+  color: rgba(173, 255, 47, 1);
+}
+.buttontextSize {
+  font-size: x-large;
+  font-weight: 700;
+}
