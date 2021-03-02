@@ -3,18 +3,18 @@
     <div
       class="navfixed navSize d-flex justify-content-around align-items-center"
     >
-      <div class="navButtonSize">
+      <div class="navButtonLogo">
         <img
-          width="200px"
-          height="80px"
+          width="180px"
+          height="70px"
           src="../assets/starkey.jpg"
           alt="logo audio-conseil"
         />
       </div>
       <div class="col-md-8 d-flex justify-content-around">
-        <div class="navButtonSize">ACCUEIL</div>
-        <div class="navButtonSize">SOLUTIONS</div>
-        <div class="navButtonSize">CONTACT</div>
+        <NuxtLink class="navButtonSize" to="/">Accueil</NuxtLink>
+        <NuxtLink class="navButtonSize" to="/Solutions">Solutions</NuxtLink>
+        <NuxtLink class="navButtonSize" to="/">Contact</NuxtLink>
       </div>
     </div>
   </div>
@@ -34,17 +34,18 @@ export default {
 }
 .navSize {
   width: 100%;
-  height: 100px;
-  background: transparent;
+  height: 80px;
+  background: rgba(36, 78, 122, 0.5);
 }
 .navButtonSize {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
   width: 120px;
   font-weight: 900;
   color: white;
+  text-decoration: none !important;
 }
 .navButtonLogo {
   display: flex;
