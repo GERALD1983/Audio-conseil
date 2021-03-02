@@ -1,66 +1,129 @@
 <template>
   <div>
+    <div class="colortexteBleu margeTopPage flexCenter">
+      <h1>NOS SOLUTIONS</h1>
+    </div>
     <div class="mt-5">
-      <h2 class="flexCenter  text-secondary">Présentation</h2>
+      <h2 class="flexCenter  text-secondary">Aides auditives</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
     <div class="flexCenter">
       <p class="col-md-8 centreTexte">
-        Parce que nous estimons que bien entendre est essentiel pour profiter
-        pleinement de la vie, et que l'appareillage auditif suscite de
-        nombreuses questions, Arnaud Menger et Agathe Adam souhaitent apporter
-        une solution technique et humaine à vos problèmes d'audition.
+        Seul l'audioprothésiste pourra vous conseiller sur la solution adaptée à
+        vos besoins après avoir fait un bilan avec vous. Il pourra ainsi vous
+        diriger vers des intra-auriculaires, des contours d'oreilles, ou des
+        mini contours d'oreilles.
       </p>
     </div>
     <div class="mt-3 flexCenter">
       <p class="col-md-8 centreTexte">
-        Retrouvez-nous autour de Rennes, dans nos magasins de CHANTEPIE,
-        CHATEAUGIRON, NOYAL CHATILLON SUR SEICHE, SAINT GREGOIRE et LA
-        BOUEXIERE.
+        AUDIO Conseil étant une enseigne indépendante, nous garantissons de vous
+        proposer les meilleurs prothéses. Votre satisfaction étant notre
+        objectif.
       </p>
     </div>
-    <div class="mt-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        En savoir plus
-      </button>
+    <div class="flexCenter">
+      <div class="col-md-8 mt-5 flexAround ">
+        <div class="aideAuditiveCarteSize">
+          <img width="100%" height="250px" src="../assets/muse.jpg" alt="" />
+          <h5>Contour à écouteur déporté (RIC)</h5>
+          <p>
+            Destiné aux pertes faibles à sévères <br />
+            Facile à manipuler <br />
+            Fiabilité dans le temps <br />
+            Esthétique et quasi invisible pour certains
+          </p>
+        </div>
+        <div class="aideAuditiveCarteSize">
+          <img
+            width="100%"
+            height="250px"
+            src="../assets/protheses.jpg"
+            alt=""
+          />
+          <h5>Intra-auriculaire</h5>
+          <p>
+            Destiné aux pertes faibles à moyennes <br />
+            Plus compliqué à manipuler <br />
+            Esthétique ou quasi invisible pour certains <br />
+            Moins grande autonomie
+          </p>
+        </div>
+        <div class="aideAuditiveCarteSize">
+          <img
+            width="100%"
+            height="250px"
+            src="../assets/audition.jpg"
+            alt=""
+          />
+          <h5>Contour d'oreille</h5>
+          <p>
+            Destiné aux pertes faibles à profondes <br />
+            Facile à manipuler <br />
+            Fiabilité dans le temps <br />
+            Plus grande autonomie <br />
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="backSkill flexCenter mt-5 ">
-      <div class=" col-md-8 skillFlex  text-white">
-        <div>
-          <div class="skillHover cercleSkill">
-            <b-icon icon="shop" font-scale="3"></b-icon>
+
+    <div class="backGammes mt-5 ">
+      <div class="mt-5">
+        <h2 class="flexCenter colortexteBleu">Gammes</h2>
+      </div>
+      <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+      <div class="flexCenter">
+        <p class="col-md-8 centreTexte">
+          En fonction de votre perte auditive, votre style de vie et vos
+          activités déterminent le niveau de performance de traitement de
+          l'information nécessaire pour améliorer l'écoute dans tous les moments
+          de votre vie quotidienne.
+        </p>
+      </div>
+      <div class="flexCenter textColorGamme">
+        <div class="col-md-8">
+          <div class="flexBetween mt-3 px-3 eco">
+            <div>Economiques</div>
+            <div class=" ">
+              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+            </div>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">magasin</div>
-        </div>
-        <div>
-          <div class="skillHover cercleSkill ">
-            <b-icon icon="person-badge-fill" font-scale="3"></b-icon>
+          <div class="flexBetween mt-3 px-3 basique">
+            <div>Basique</div>
+            <div class=" ">
+              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+            </div>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">conseil</div>
-        </div>
-        <div>
-          <div class="skillHover cercleSkill ">
-            <b-icon icon="telephone-inbound" font-scale="3"></b-icon>
+          <div class="flexBetween mt-3 px-3 confort">
+            <div>Confort</div>
+            <div class=" ">
+              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+            </div>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">contact</div>
-        </div>
-        <div>
-          <div class="skillHover cercleSkill">
-            <b-icon icon="geo-alt" font-scale="3"></b-icon>
+          <div class="flexBetween mt-3 px-3 avance">
+            <div>Avancé</div>
+            <div class=" ">
+              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+            </div>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">proximité</div>
+          <div class="flexBetween mt-3 px-3 premium">
+            <div>Premium</div>
+            <div>
+              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="mt-5">
-      <h2 class="flexCenter text-secondary">Actualités</h2>
+      <h2 class="flexCenter text-secondary">Accessoires</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
     <div class="flexCenter">
       <p class="col-md-8 centreTexte">
-        Retrouvez régulièrement nos dernières actualités concernant l'audition.
-        Nous vous informons tant sur nos offres que sur les innovations et les
-        nouveautés dans le domaine de la correction auditive.
+        Que vous soyez équipés d'aides auditives ou non, AUDIO CONSEIL a
+        sélectionné pour vous une gamme complète d'accessoires d'aide à la
+        communication.
       </p>
     </div>
     <div class="mt-5 flexCenter">
@@ -174,70 +237,47 @@
 
 <script>
 export default {
-  name: "contenue"
+  name: "solutions"
 };
 </script>
 
 <style>
-.borderRad {
-  border-radius: 20px;
-  background-color: #244d78;
+.textColorGamme {
+  font-size: 20px;
+  font-weight: 900;
+  color: grey;
 }
-.bandeauCarte {
-  width: 100%;
-  height: 50px;
-  background: #244d78;
-}
-.flexCarte {
-  display: flex;
-  justify-content: space-around;
-}
-.buttonCarte {
-  background-color: #244d78;
-  color: white;
-}
-.carte1 {
+.eco {
   width: 30%;
-  height: 350px;
-  border: 2px solid #244d78;
-  border-radius: 20px;
-  background: white;
+  height: 70px;
+  background-color: rgb(230, 253, 194);
 }
-.carte2 {
+.basique {
+  width: 40%;
+  height: 70px;
+  background-color: rgb(189, 233, 123);
+}
+.confort {
+  width: 50%;
+  height: 70px;
+  background-color: rgb(172, 233, 80);
+}
+.avance {
+  width: 70%;
+  height: 70px;
+  background-color: rgb(139, 204, 43);
+}
+.premium {
+  width: 90%;
+  height: 70px;
+  background-color: rgba(97, 161, 1, 0.7);
+}
+.aideAuditiveCarteSize {
   width: 30%;
   height: 500px;
-  border: 2px solid #244d78;
-  border-radius: 20px;
-  background: white;
 }
-.carte3 {
-  width: 30%;
+.backGammes {
+  background-color: rgba(128, 128, 128, 0.3);
   height: 700px;
-  border: 2px solid #244d78;
-  border-radius: 20px;
-  background: white;
-}
-.backSkill {
-  height: 300px;
-  background: rgba(173, 255, 47, 0.7);
-}
-.backPartenaire {
-  height: auto;
-  background: rgba(173, 255, 47, 0.7);
-}
-.skillFlex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.cercleSkill {
-  padding: 1.5em;
-  border: 0.2em solid white;
-  border-radius: 50%;
-}
-.skillHover:hover {
-  background-color: white;
-  color: gray;
-  cursor: pointer;
 }
 </style>

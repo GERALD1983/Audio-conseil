@@ -1,19 +1,18 @@
 <template>
   <div class="">
     <NavBar />
-    <MaPage />
-    <Contenue />
+    <Solutions />
     <Foot />
   </div>
 </template>
 
 <script>
 import NavBar from "../components/nav.vue";
-import MaPage from "../components/maPage.vue";
-import Contenue from "../components/contenue.vue";
+
+import Solutions from "../components/solutions.vue";
 import Foot from "../components/footer.vue";
 export default {
-  components: { MaPage, NavBar, Contenue, Foot }
+  components: { NavBar, Solutions, Foot }
 };
 </script>
 
