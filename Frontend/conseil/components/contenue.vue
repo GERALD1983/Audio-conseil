@@ -1,22 +1,27 @@
 <template>
   <div>
     <div class="mt-5">
-      <h2 class="flexCenter  text-secondary">Présentation</h2>
+      <h2 class="flexCenter colortexteBleu">Présentation</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
-    <div class="flexCenter">
+    <div class="flexCenter text-secondary ">
       <p class="col-md-8 centreTexte">
-        Parce que nous estimons que bien entendre est essentiel pour profiter
-        pleinement de la vie, et que l'appareillage auditif suscite de
-        nombreuses questions, Arnaud Menger et Agathe Adam souhaitent apporter
-        une solution technique et humaine à vos problèmes d'audition.
+        Parce que nous estimons que
+        <strong>Bien entendre est essentiel </strong> pour profiter pleinement
+        de la vie, et que l'appareillage auditif suscite de nombreuses
+        questions, Votre
+        <strong> Audioprothésiste Ali Ahanguir </strong> souhaite apporter une
+        solution technique et humaine à vos problèmes d'audition.
       </p>
     </div>
-    <div class="mt-3 flexCenter">
+    <div class="mt-3 flexCenter text-secondary">
       <p class="col-md-8 centreTexte">
-        Retrouvez-nous autour de Rennes, dans nos magasins de CHANTEPIE,
-        CHATEAUGIRON, NOYAL CHATILLON SUR SEICHE, SAINT GREGOIRE et LA
-        BOUEXIERE.
+        Retrouvez-nous autour de <strong> VAL FLEURI </strong>, dans notre
+        magasin à <strong>CASABLANCA </strong>, spécialiste en
+        <strong> AUDITION </strong>,<strong> AUDIOPROTHESE </strong> ,<strong
+          >MAL-ENTENDANT
+        </strong>
+        ,<strong> SURDITE </strong>, <strong> PROBLEMES D'AUDITION </strong>.
       </p>
     </div>
     <div class="mt-5 flexCenter ">
@@ -28,36 +33,56 @@
       <div class=" col-md-8 skillFlex  text-white">
         <div>
           <div class="skillHover cercleSkill">
-            <b-icon icon="shop" font-scale="3"></b-icon>
+            <b-icon class="text-secondary" icon="shop" font-scale="3"></b-icon>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">magasin</div>
+          <div class="mt-3 flexCenter buttontextSize text-secondary">
+            Magasin
+          </div>
         </div>
         <div>
           <div class="skillHover cercleSkill ">
-            <b-icon icon="person-badge-fill" font-scale="3"></b-icon>
+            <b-icon
+              class="text-secondary"
+              icon="person-badge-fill"
+              font-scale="3"
+            ></b-icon>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">conseil</div>
+          <div class="mt-3 flexCenter buttontextSize text-secondary">
+            Conseil
+          </div>
         </div>
         <div>
           <div class="skillHover cercleSkill ">
-            <b-icon icon="telephone-inbound" font-scale="3"></b-icon>
+            <b-icon
+              class="text-secondary"
+              icon="telephone-inbound"
+              font-scale="3"
+            ></b-icon>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">contact</div>
+          <div class="mt-3 flexCenter buttontextSize text-secondary">
+            Contact
+          </div>
         </div>
         <div>
           <div class="skillHover cercleSkill">
-            <b-icon icon="geo-alt" font-scale="3"></b-icon>
+            <b-icon
+              class="text-secondary"
+              icon="geo-alt"
+              font-scale="3"
+            ></b-icon>
           </div>
-          <div class="flexCenter buttontextSize text-secondary">proximité</div>
+          <div class="mt-3 flexCenter buttontextSize text-secondary">
+            Proximité
+          </div>
         </div>
       </div>
     </div>
     <div class="mt-5">
-      <h2 class="flexCenter text-secondary">Actualités</h2>
+      <h2 class="flexCenter colortexteBleu">Actualités</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte">
+      <p class="col-md-8 centreTexte text-secondary">
         Retrouvez régulièrement nos dernières actualités concernant l'audition.
         Nous vous informons tant sur nos offres que sur les innovations et les
         nouveautés dans le domaine de la correction auditive.
@@ -133,9 +158,9 @@
         Toutes les actualités
       </button>
     </div>
-    <div class="pt-5 backPartenaire text-secondary">
+    <div class="pt-5 backPartenaire2 text-secondary">
       <div class="">
-        <h2 class="flexCenter">Nos partenariats</h2>
+        <h2 class="flexCenter colortexteBleu">Nos partenariats</h2>
       </div>
       <div class="mb-5"><h2 class="flexCenter">_</h2></div>
       <div class="flexCenter ">
@@ -224,6 +249,10 @@ export default {
 .backPartenaire {
   height: auto;
   background: rgba(173, 255, 47, 0.7);
+}
+.backPartenaire2 {
+  height: auto;
+  background-color: rgba(199, 195, 195, 0.3);
 }
 .skillFlex {
   display: flex;

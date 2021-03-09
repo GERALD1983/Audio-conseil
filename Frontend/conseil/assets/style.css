@@ -35,7 +35,22 @@
 .colortexteBleu {
   color: #244d78;
 }
+.colortexteDore {
+  color: #fdb813;
+}
+.borderDore {
+  border: 2px solid #fdb813;
+}
 .buttontextSize {
   font-size: x-large;
   font-weight: 700;
+}
+.ombreNav:hover {
+  box-shadow: 0 0 0 0 rgb(23, 255, 236);
+  animation: pulse 1.3s infinite;
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.01);
+  }
 }

@@ -7,7 +7,7 @@
             <img
               width="150px"
               height="80px"
-              src="../assets/starkey.jpg"
+              src="../assets/logo.png"
               alt="logo audio-conseil"
             />
           </div>
@@ -47,11 +47,14 @@
       </div>
       <div class="mt-5">
         <div class="text-center">
-          <div class=" ">
-            <b-icon icon="house-door" font-scale="1.5"></b-icon>
+          2021 Copyright Audio Conseil - Conception: GF-Tech
+          <div>
+            <div class=" ">
+              <b-icon icon="house-door" font-scale="1.2"></b-icon> Adresse :
+              Quartier Val Fleuri rue George Sand, 20390 Casablanca Tel:
+              0522222222
+            </div>
           </div>
-          2021 Copyright Audio Conseil - Conception: GF-Tech - Adresse :
-          quartier val fleuri rue george sand, 20390 Casablanca Tel: 0522222222
         </div>
       </div>
     </div>
