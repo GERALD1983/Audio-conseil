@@ -4,28 +4,22 @@
       <h1>NOS SOLUTIONS</h1>
     </div>
     <div class="mt-5">
-      <h2 class="flexCenter  text-secondary">Aides auditives</h2>
+      <h2 class="flexCenter colortexteBleu">Aides auditives</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte">
+      <p class="col-md-8 centreTexte text-secondary">
         Seul l'audioprothésiste pourra vous conseiller sur la solution adaptée à
         vos besoins après avoir fait un bilan avec vous. Il pourra ainsi vous
         diriger vers des intra-auriculaires, des contours d'oreilles, ou des
         mini contours d'oreilles.
       </p>
     </div>
-    <div class="mt-3 flexCenter">
-      <p class="col-md-8 centreTexte">
-        AUDIO Conseil étant une enseigne indépendante, nous garantissons de vous
-        proposer les meilleurs prothéses. Votre satisfaction étant notre
-        objectif.
-      </p>
-    </div>
-    <div class="flexCenter">
+
+    <div class="flexCenter text-secondary">
       <div class="col-md-8 mt-5 flexAround ">
         <div class="aideAuditiveCarteSize">
-          <img width="100%" height="250px" src="../assets/muse.jpg" alt="" />
+          <img width="100%" height="250px" src="../assets/deporte.jpg" alt="" />
           <h5>Contour à écouteur déporté (RIC)</h5>
           <p>
             Destiné aux pertes faibles à sévères <br />
@@ -38,7 +32,7 @@
           <img
             width="100%"
             height="250px"
-            src="../assets/protheses.jpg"
+            src="../assets/intraauculaire.jpg"
             alt=""
           />
           <h5>Intra-auriculaire</h5>
@@ -69,11 +63,11 @@
 
     <div class="backGammes mt-5 ">
       <div class="mt-5">
-        <h2 class="flexCenter colortexteBleu">Gammes</h2>
+        <h2 class="pt-5 flexCenter colortexteBleu">Gammes</h2>
       </div>
       <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
       <div class="flexCenter">
-        <p class="col-md-8 centreTexte">
+        <p class="pb-3 col-md-8 centreTexte">
           En fonction de votre perte auditive, votre style de vie et vos
           activités déterminent le niveau de performance de traitement de
           l'information nécessaire pour améliorer l'écoute dans tous les moments
@@ -116,120 +110,125 @@
       </div>
     </div>
     <div class="mt-5">
-      <h2 class="flexCenter text-secondary">Accessoires</h2>
+      <h2 class="flexCenter colortexteBleu">Accessoires</h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte">
+      <p class="col-md-8 centreTexte text-secondary">
         Que vous soyez équipés d'aides auditives ou non, AUDIO CONSEIL a
         sélectionné pour vous une gamme complète d'accessoires d'aide à la
         communication.
       </p>
     </div>
-    <div class="mt-5 flexCenter">
-      <div class="col-md-8 flexCarte">
-        <div class="carte1">
-          <div class="pt-3  borderRad ">
-            <img
-              width="100%"
-              height="150px"
-              src="../assets/livio.jpg"
-              alt="appareil auditif livio Ai"
-            />
-          </div>
-
-          <div class="bandeauCarte flexCenter text-white">Nouveauté</div>
-          <div class="mt-3 text-center">
-            Nouveauté 2021 : Les appareils auditifs LIVIO by STARKEY
-          </div>
-          <div class="flexCenter">
-            <button class="mt-3 btn buttonCarte">Plus de détails</button>
-          </div>
+    <div class="flexCenter">
+      <div class="col-md-8 mt-5 flexAround flex-wrap text-secondary ">
+        <div class="aideAuditiveCarteSize">
+          <img
+            width="100%"
+            height="250px"
+            src="../assets/chargeur.jpg"
+            alt=""
+          />
+          <h5>Chargeur</h5>
+          <p>
+            Grâce aux évolutions technologiques, le développement des aides
+            auditives rechargeables devient de plus en plus important.
+          </p>
         </div>
-        <div class="carte2">
-          <div class="pt-3 borderRad">
-            <img
-              width="100%"
-              height="220px"
-              src="../assets/oreillenumerique.jpg"
-              alt="appareil auditif livio Ai"
-            />
-          </div>
-          <div class="bandeauCarte flexCenter text-white">Dossier</div>
-          <div class="bg-white">
-            <div class="mt-3 text-center">
-              Dossier : l'oreille, ce capteur numérique. L'audition repose sur
-              un processus encore bien mystérieux. Les réponses dans notre
-              dossier consacré à l'oreille numérique.
-            </div>
-            <div class="flexCenter">
-              <button class="mt-3 btn buttonCarte">Plus de détails</button>
-            </div>
-          </div>
+        <div class="aideAuditiveCarteSize">
+          <img width="100%" height="250px" src="../assets/pile.jpg" alt="" />
+          <h5>Piles</h5>
+          <p>
+            Votre prothèse auditive a besoin de piles adaptées et de qualité
+            pour fonctionner correctement. Un changement infime de puissance...
+          </p>
         </div>
-        <div class="carte3">
-          <div class="pt-3 borderRad">
-            <img
-              width="100%"
-              height="300px"
-              src="../assets/baladeur.jpg"
-              alt="appareil auditif livio Ai"
-            />
-          </div>
-          <div class="bandeauCarte flexCenter text-white">Prévention</div>
-          <div class="mt-3 text-center">
-            Les baladeurs MP3, fléau de l'audition: Si l'on est conscient des
-            nuisances sonores sur le lieu de travail ou dans les transports, une
-            nouvelle étude montre les effets plus surprenants des MP3 et autres
-            baladeurs audio sur notre audition. Vacarme citadin des transports
-            en commun et baladeurs MP3 engendrent à eux deux des nuisances chez
-            près de 90 % des New-Yorkais.
-          </div>
-          <div class="flexCenter">
-            <button class="mt-3 btn buttonCarte">Plus de détails</button>
-          </div>
+        <div class="aideAuditiveCarteSize">
+          <img
+            width="100%"
+            height="250px"
+            src="../assets/entretien2.png"
+            alt=""
+          />
+          <h5>Produits d'entretien</h5>
+          <p>
+            Quelle que soit votre solution auditive, il est essentiel d’en
+            effectuer le nettoyage quotidien. Vous éviterez ainsi d’éventuelles
+            pannes ...
+          </p>
+        </div>
+        <div class="aideAuditiveCarteSize">
+          <img width="100%" height="250px" src="../assets/phone.jpg" alt="" />
+          <h5>Communications</h5>
+          <p>
+            La technologie évolue, il est désormais possible de recevoir
+            directement dans vos aides auditives, votre téléphone portable,
+            votre lecteur MP3 ...
+          </p>
         </div>
       </div>
     </div>
-    <div class="mt-5 mb-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        Toutes les actualités
-      </button>
-    </div>
+
     <div class="pt-5 backPartenaire text-secondary">
       <div class="">
-        <h2 class="flexCenter">Nos partenariats</h2>
+        <h2 class="flexCenter colortexteBleu">Protections</h2>
       </div>
-      <div class="mb-5"><h2 class="flexCenter">_</h2></div>
+      <div class="mb-3"><h2 class="flexCenter">_</h2></div>
       <div class="flexCenter ">
         <p class="col-md-8 centreTexte">
-          Spécialistes de la correction auditive, nous travaillons en étroite
-          collaboration avec des professionnels de santé. Le médecin O.R.L. est
-          notre partenaire privilégié. Il est le seul habilité à diagnostiquer
-          votre perte auditive, et à prescrire une correction auditive. Nous
-          pouvons être amenés à échanger également avec votre médecin
-          généraliste, votre orthophoniste, etc.
+          Nous avons également sélectionné pour vous toute une gamme de
+          protections auditives afin de préserver vos oreilles des agressions
+          extérieures et ainsi conserver votre capital auditif le plus longtemps
+          possible
         </p>
       </div>
-      <div class="mt-1">
-        <h3 class="flexCenter">Mutuelles</h3>
-      </div>
-      <div class="mt-3 pb-5 flexCenter">
-        <p class="col-md-8 centreTexte">
-          La prise en charge par les mutuelles est très variable car elle dépend
-          des conditions spécifiées dans votre contrat. Grace aux nombreux
-          partenariats mis en place avec les réseaux de santé des mutuelles,
-          nous vous assurons une tarification contrôlée, un protocole rigoureux,
-          ainsi qu’un accès simplifié à vos remboursements. Nous vous faisons
-          bénéficier du tiers payant et nous chargeons de toutes les démarches
-          nécessaires auprès de vos caisses, afin de vous éviter les avances de
-          frais.
-        </p>
+      <div class="flexCenter mt-5 pb-5">
+        <div class="flexAround col-md-8">
+          <div class="flexCenter skillColumn">
+            <div class="skillHover cercleSkill">
+              <b-icon icon="life-preserver" font-scale="3"></b-icon>
+            </div>
+            <div class="flexCenter buttontextSize text-secondary">Baignade</div>
+          </div>
+          <div class="flexCenter skillColumn">
+            <div class="skillHover cercleSkill">
+              <b-icon icon="headphones" font-scale="3"></b-icon>
+            </div>
+            <div class="flexCenter buttontextSize text-secondary">Nuisance</div>
+          </div>
+
+          <div class="flexCenter skillColumn">
+            <div class="skillHover cercleSkill">
+              <b-icon icon="alarm" font-scale="3"></b-icon>
+            </div>
+            <div class="flexCenter buttontextSize text-secondary">Sommeil</div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="mt-5">
+      <h2 class="flexCenter  colortexteBleu">Notre Marque</h2>
+    </div>
+    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+    <div class="flexCenter">
+      <p class="col-md-8 centreTexte text-secondary">
+        AUDIO CONSEIL étant une enseigne indépendante, nous sommes libres de
+        vous proposer les meilleurs produits sélectionnés parmi la plus grande
+        marque du marché. Votre satisfaction étant notre objectif, nous tenons
+        particulièrement à répondre à vos besoins.
+      </p>
+    </div>
+    <div class="flexCenter">
+      <img
+        src="../assets/starkey2.jpg"
+        alt="logo prothése auditive marque starkey audition mieux entendre mieux vivre"
+      />
+    </div>
     <div class="my-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        Contactez-nous
+      <button
+        class=" borderButtonfoot btn backColorBleu text-white buttontextSize"
+      >
+        Prendre rendez-vous
       </button>
     </div>
   </div>
@@ -242,6 +241,9 @@ export default {
 </script>
 
 <style>
+.skillColumn {
+  flex-direction: column;
+}
 .textColorGamme {
   font-size: 20px;
   font-weight: 900;
@@ -277,7 +279,7 @@ export default {
   height: 500px;
 }
 .backGammes {
-  background-color: rgba(128, 128, 128, 0.3);
-  height: 700px;
+  background-color: rgba(199, 195, 195, 0.3);
+  height: 730px;
 }
 </style>
