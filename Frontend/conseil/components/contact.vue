@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="colortexteBleu margeTopPage flexCenter">
+    <div class="colortexteBleu paddingTopPage flexCenter">
       <h1>CONTACTEZ-NOUS</h1>
     </div>
     <div class="mt-5">
@@ -64,9 +64,11 @@
       </div>
     </div>
 
-    <div><img width="100%" src="../assets/carte.jpg" alt="" /></div>
+    <div>
+      <img id="carteGoogle" width="100%" src="../assets/carte.jpg" alt="" />
+    </div>
     <div class="mt-5">
-      <div class="mt-5">
+      <div id="section-x" class="mt-5">
         <h2 class="flexCenter colortexteBleu">NOUS ECRIRE</h2>
       </div>
       <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>

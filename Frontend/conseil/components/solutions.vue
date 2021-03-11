@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="colortexteBleu margeTopPage flexCenter">
+    <div class="colortexteBleu paddingTopPage flexCenter">
       <h1>NOS SOLUTIONS</h1>
     </div>
     <div class="mt-5">
@@ -76,34 +76,126 @@
       </div>
       <div class="flexCenter textColorGamme">
         <div class="col-md-8">
-          <div class="flexBetween mt-3 px-3 eco">
-            <div>Economiques</div>
-            <div class=" ">
-              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+          <div>
+            <div class="margSizeText margA">
+              <div class="ecoText">
+                <p>
+                  <strong>Style de vie très calme</strong>, <br />
+                  recommandé pour des personnes évoluant dans des environnements
+                  très calmes. Idéal pour des
+                  <strong
+                    >discussions en face à face, à la maison, ou pour regarder
+                    la télévision</strong
+                  >.
+                </p>
+              </div>
+              <div class="flexCenter sizeA">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+
+            <div class="flexBetween mt-3 px-3 eco">
+              <div>Economiques</div>
+              <div class="pointerImgFooter ombreNav">
+                <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+              </div>
             </div>
           </div>
-          <div class="flexBetween mt-3 px-3 basique">
-            <div>Basique</div>
-            <div class=" ">
-              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+          <div>
+            <div class="margSizeText margB">
+              <div class="ecoText">
+                <p>
+                  <strong>Style de vie calme</strong>, <br />
+                  recommandé pour des personnes évoluant rarement dans des
+                  environnements bruyants. Idéal<strong>
+                    à la maison, mais aussi pour des conversations ou réunions
+                    de travail</strong
+                  >.
+                </p>
+              </div>
+              <div class="flexCenter sizeA">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+            <div class="flexBetween mt-3 px-3 basique">
+              <div>Basique</div>
+              <div class="pointerImgFooter ombreNav">
+                <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+              </div>
             </div>
           </div>
-          <div class="flexBetween mt-3 px-3 confort">
-            <div>Confort</div>
-            <div class=" ">
-              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+          <div>
+            <div class="margSizeText margC">
+              <div class="ecoText">
+                <p>
+                  <strong>Style de vie active</strong>, <br />
+                  recommandé pour des personnes évoluant de temps en temps dans
+                  des environnements bruyants. Idéal pour améliorer une
+                  <strong
+                    >activité en plein air, ou dans les magasins type centres
+                    commerciaux</strong
+                  >.
+                </p>
+              </div>
+              <div class="flexCenter sizeA">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+            <div class="flexBetween mt-3 px-3 confort">
+              <div>Confort</div>
+              <div class="pointerImgFooter ombreNav">
+                <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+              </div>
             </div>
           </div>
-          <div class="flexBetween mt-3 px-3 avance">
-            <div>Avancé</div>
-            <div class=" ">
-              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+          <div>
+            <div class="margSizeText margD">
+              <div class="ecoText">
+                <p>
+                  <strong>Style de vie dynamique</strong>, <br />
+                  recommandé pour des personnes actives évoluant régulièrement
+                  dans des environnements bruyants et multiples. Idéal pour être
+                  à l'aise dans des
+                  <strong
+                    >salles de spectacle, au restaurant, en voiture, ou si l'on
+                    est confronté à des bruits de machine</strong
+                  >.
+                </p>
+              </div>
+              <div class="flexCenter sizeA">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+            <div class="flexBetween mt-3 px-3 avance">
+              <div>Avancé</div>
+              <div class="pointerImgFooter ombreNav">
+                <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+              </div>
             </div>
           </div>
-          <div class="flexBetween mt-3 px-3 premium">
-            <div>Premium</div>
-            <div>
-              <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+          <div>
+            <div class="displayNone margSizeText margE">
+              <div class="ecoText">
+                <p>
+                  <strong>Style de vie intense</strong>, <br />
+                  recommandé pour des personnes très actives évoluant
+                  fréquemment dans des environnements très bruyants et
+                  complexes. Idéal pour être à l'aise
+                  <strong
+                    >en voiture, dans des soirées, cocktails, ou au milieu de la
+                    foule, et même optimiser l'écoute de la musique</strong
+                  >.
+                </p>
+              </div>
+              <div class="flexCenter sizeA">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+            <div class="flexBetween mt-3 px-3 premium">
+              <div>Premium</div>
+              <div class="pointerImgFooter ombreNav">
+                <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
+              </div>
             </div>
           </div>
         </div>
@@ -236,11 +328,65 @@
 
 <script>
 export default {
-  name: "solutions"
+  name: "solutions",
+  methods: {
+    clickAppear() {
+      let display1 = document.getElementById("display1");
+      let display2 = document.getElementById("display2");
+      console.log(display1);
+      if (display1.style.display == "none" || display1.style.display == "") {
+        display1.style.display = "block";
+      } else {
+        display1.style.display = "none";
+      }
+      if (display2.style.display == "none" || display2.style.display == "") {
+        display2.style.display = "block";
+      } else {
+        display2.style.display = "none";
+      }
+    }
+  }
 };
 </script>
 
 <style>
+.displayNone {
+  display: none;
+}
+.displayNone:hover {
+  display: block;
+}
+.sizeA {
+  width: 20em;
+}
+.margA {
+  padding-left: 15%;
+}
+.margB {
+  padding-left: 24%;
+}
+.margC {
+  padding-left: 33.5%;
+}
+.margD {
+  padding-left: 48.5%;
+}
+.margE {
+  padding-left: 67.5%;
+}
+.margSizeText {
+  position: absolute;
+  width: 100%;
+  margin-top: -300px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #fdb813;
+}
 .skillColumn {
   flex-direction: column;
 }
@@ -253,6 +399,13 @@ export default {
   width: 30%;
   height: 70px;
   background-color: rgb(230, 253, 194);
+}
+.ecoText {
+  width: 20em;
+  height: 300px;
+  background-color: white;
+  border: 5px solid #fdb813;
+  border-radius: 1em;
 }
 .basique {
   width: 40%;

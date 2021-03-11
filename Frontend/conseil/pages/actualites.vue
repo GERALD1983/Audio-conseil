@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <NavBar class="navigation" />
-    <Contact />
+    <Actu />
     <Foot />
   </div>
 </template>
@@ -9,10 +9,10 @@
 <script>
 import NavBar from "../components/nav.vue";
 
-import Contact from "../components/contact.vue";
+import Actu from "../components/actu.vue";
 import Foot from "../components/footer.vue";
 export default {
-  components: { NavBar, Contact, Foot }
+  components: { NavBar, Actu, Foot }
 };
 </script>
 
