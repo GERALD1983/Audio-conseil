@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <NavBar />
+    <NavBar class="navigation" />
     <MaPage />
     <Contenue />
     <Foot />
@@ -13,7 +13,8 @@ import MaPage from "../components/maPage.vue";
 import Contenue from "../components/contenue.vue";
 import Foot from "../components/footer.vue";
 export default {
-  components: { MaPage, NavBar, Contenue, Foot }
+  components: { MaPage, NavBar, Contenue, Foot },
+  methods: {}
 };
 </script>
 

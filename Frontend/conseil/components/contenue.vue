@@ -25,46 +25,63 @@
       </p>
     </div>
     <div class="mt-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        En savoir plus
-      </button>
+      <NuxtLink
+        class="btn backColorBleu text-white buttontextSize"
+        to="/Solutions"
+        >En savoir plus</NuxtLink
+      >
     </div>
     <div class="backSkill flexCenter mt-5 ">
       <div class=" col-md-8 skillFlex  text-white">
         <div>
-          <div class="skillHover cercleSkill">
-            <b-icon class="text-secondary" icon="shop" font-scale="3"></b-icon>
-          </div>
+          <NuxtLink to="/Contact">
+            <div class="skillHover cercleSkill">
+              <b-icon
+                class="text-secondary"
+                icon="shop"
+                font-scale="3"
+              ></b-icon>
+            </div>
+          </NuxtLink>
+
           <div class="mt-3 flexCenter buttontextSize text-secondary">
             Magasin
           </div>
         </div>
         <div>
-          <div class="skillHover cercleSkill ">
-            <b-icon
-              class="text-secondary"
-              icon="person-badge-fill"
-              font-scale="3"
-            ></b-icon>
-          </div>
+          <NuxtLink to="/Solutions">
+            <div class="skillHover cercleSkill ">
+              <b-icon
+                class="text-secondary"
+                icon="person-badge-fill"
+                font-scale="3"
+              ></b-icon>
+            </div>
+          </NuxtLink>
+
           <div class="mt-3 flexCenter buttontextSize text-secondary">
             Conseil
           </div>
         </div>
         <div>
-          <div class="skillHover cercleSkill ">
-            <b-icon
-              class="text-secondary"
-              icon="telephone-inbound"
-              font-scale="3"
-            ></b-icon>
-          </div>
+          <NuxtLink
+            :to="{ path: '/Contact', hash: 'section-x' }"
+            v-scroll-to="{ el: '#section-x' }"
+          >
+            <div class="skillHover cercleSkill ">
+              <b-icon
+                class="text-secondary"
+                icon="telephone-inbound"
+                font-scale="3"
+              ></b-icon>
+            </div>
+          </NuxtLink>
           <div class="mt-3 flexCenter buttontextSize text-secondary">
             Contact
           </div>
         </div>
         <div>
-          <div class="skillHover cercleSkill">
+          <div @click="toProximite" class="skillHover cercleSkill">
             <b-icon
               class="text-secondary"
               icon="geo-alt"
@@ -105,7 +122,12 @@
             Nouveauté 2021 : Les appareils auditifs LIVIO by STARKEY
           </div>
           <div class="flexCenter">
-            <button class="mt-3 btn buttonCarte">Plus de détails</button>
+            <NuxtLink
+              :to="{ path: '/Actualites', hash: 'livio' }"
+              v-scroll-to="{ el: '#livio' }"
+            >
+              <button class="mt-3 btn buttonCarte">Plus de détails</button>
+            </NuxtLink>
           </div>
         </div>
         <div class="carte2">
@@ -114,7 +136,7 @@
               width="100%"
               height="220px"
               src="../assets/oreillenumerique.jpg"
-              alt="appareil auditif livio Ai"
+              alt="photo oreille numérique image intérieur oreille"
             />
           </div>
           <div class="bandeauCarte flexCenter text-white">Dossier</div>
@@ -125,7 +147,12 @@
               dossier consacré à l'oreille numérique.
             </div>
             <div class="flexCenter">
-              <button class="mt-3 btn buttonCarte">Plus de détails</button>
+              <NuxtLink
+                :to="{ path: '/Actualites', hash: 'oreilleNumerique' }"
+                v-scroll-to="{ el: '#oreilleNumerique' }"
+              >
+                <button class="mt-3 btn buttonCarte">Plus de détails</button>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -135,7 +162,7 @@
               width="100%"
               height="300px"
               src="../assets/baladeur.jpg"
-              alt="appareil auditif livio Ai"
+              alt="photo nuisance des baladeurs et des casques sur les oreilles, nuisances sonores"
             />
           </div>
           <div class="bandeauCarte flexCenter text-white">Prévention</div>
@@ -148,15 +175,22 @@
             près de 90 % des New-Yorkais.
           </div>
           <div class="flexCenter">
-            <button class="mt-3 btn buttonCarte">Plus de détails</button>
+            <NuxtLink
+              :to="{ path: '/Actualites', hash: 'baladeurMp3' }"
+              v-scroll-to="{ el: '#baladeurMp3' }"
+            >
+              <button class="mt-3 btn buttonCarte">Plus de détails</button>
+            </NuxtLink>
           </div>
         </div>
       </div>
     </div>
     <div class="mt-5 mb-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        Toutes les actualités
-      </button>
+      <NuxtLink
+        class="btn backColorBleu text-white buttontextSize"
+        to="/Actualites"
+        >Toutes les actualités</NuxtLink
+      >
     </div>
     <div class="pt-5 backPartenaire2 text-secondary">
       <div class="">
@@ -189,17 +223,29 @@
         </p>
       </div>
     </div>
-    <div class="my-5 flexCenter ">
-      <button class="btn backColorBleu text-white buttontextSize">
-        Contactez-nous
-      </button>
+    <div id="proximite" class="mt-5 mb-5 flexCenter ">
+      <NuxtLink
+        class="btn backColorBleu text-white buttontextSize"
+        to="/Contact"
+        >Contactez-nous</NuxtLink
+      >
     </div>
   </div>
 </template>
 
 <script>
+import jump from "jump.js";
 export default {
-  name: "contenue"
+  name: "contenue",
+  methods: {
+    toProximite() {
+      // window.scrollTo(0, 400);
+      jump("#proximite", {
+        duration: 1000,
+        callback: () => console.log("Saut terminé!")
+      });
+    }
+  }
 };
 </script>
 
@@ -219,6 +265,10 @@ export default {
 }
 .buttonCarte {
   background-color: #244d78;
+  color: white;
+}
+.buttonCarte:hover {
+  background-color: #fdb813;
   color: white;
 }
 .carte1 {
@@ -260,6 +310,8 @@ export default {
   align-items: center;
 }
 .cercleSkill {
+  width: 100px;
+  height: 100px;
   padding: 1.5em;
   border: 0.2em solid white;
   border-radius: 50%;
