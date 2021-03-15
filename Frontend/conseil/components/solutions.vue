@@ -77,7 +77,7 @@
       <div class="flexCenter textColorGamme">
         <div class="col-md-8">
           <div>
-            <div class="margSizeText margA">
+            <div id="display1" class="displayNone margSizeText margA">
               <div class="ecoText">
                 <p>
                   <strong>Style de vie très calme</strong>, <br />
@@ -89,20 +89,21 @@
                   >.
                 </p>
               </div>
-              <div class="flexCenter sizeA">
-                <div class="arrow-down"></div>
-              </div>
             </div>
 
             <div class="flexBetween mt-3 px-3 eco">
               <div>Economiques</div>
-              <div class="pointerImgFooter ombreNav">
+              <div
+                @mouseenter="clickAppear1"
+                @mouseleave="clickAppear1"
+                class="pointerImgFooter ombreNav"
+              >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
             </div>
           </div>
           <div>
-            <div class="margSizeText margB">
+            <div id="display2" class="displayNone margSizeText margB">
               <div class="ecoText">
                 <p>
                   <strong>Style de vie calme</strong>, <br />
@@ -113,19 +114,20 @@
                   >.
                 </p>
               </div>
-              <div class="flexCenter sizeA">
-                <div class="arrow-down"></div>
-              </div>
             </div>
             <div class="flexBetween mt-3 px-3 basique">
               <div>Basique</div>
-              <div class="pointerImgFooter ombreNav">
+              <div
+                @mouseenter="clickAppear2"
+                @mouseleave="clickAppear2"
+                class="pointerImgFooter ombreNav"
+              >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
             </div>
           </div>
           <div>
-            <div class="margSizeText margC">
+            <div id="display3" class="displayNone margSizeText margC">
               <div class="ecoText">
                 <p>
                   <strong>Style de vie active</strong>, <br />
@@ -137,19 +139,20 @@
                   >.
                 </p>
               </div>
-              <div class="flexCenter sizeA">
-                <div class="arrow-down"></div>
-              </div>
             </div>
             <div class="flexBetween mt-3 px-3 confort">
               <div>Confort</div>
-              <div class="pointerImgFooter ombreNav">
+              <div
+                @mouseenter="clickAppear3"
+                @mouseleave="clickAppear3"
+                class="pointerImgFooter ombreNav"
+              >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
             </div>
           </div>
           <div>
-            <div class="margSizeText margD">
+            <div id="display4" class="displayNone margSizeText margD">
               <div class="ecoText">
                 <p>
                   <strong>Style de vie dynamique</strong>, <br />
@@ -162,19 +165,20 @@
                   >.
                 </p>
               </div>
-              <div class="flexCenter sizeA">
-                <div class="arrow-down"></div>
-              </div>
             </div>
             <div class="flexBetween mt-3 px-3 avance">
               <div>Avancé</div>
-              <div class="pointerImgFooter ombreNav">
+              <div
+                @mouseenter="clickAppear4"
+                @mouseleave="clickAppear4"
+                class="pointerImgFooter ombreNav"
+              >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
             </div>
           </div>
           <div>
-            <div class="displayNone margSizeText margE">
+            <div id="display5" class="displayNone margSizeText margE">
               <div class="ecoText">
                 <p>
                   <strong>Style de vie intense</strong>, <br />
@@ -187,13 +191,14 @@
                   >.
                 </p>
               </div>
-              <div class="flexCenter sizeA">
-                <div class="arrow-down"></div>
-              </div>
             </div>
             <div class="flexBetween mt-3 px-3 premium">
               <div>Premium</div>
-              <div class="pointerImgFooter ombreNav">
+              <div
+                @mouseenter="clickAppear5"
+                @mouseleave="clickAppear5"
+                class="pointerImgFooter ombreNav"
+              >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
             </div>
@@ -317,11 +322,16 @@
       />
     </div>
     <div class="my-5 flexCenter ">
-      <button
-        class=" borderButtonfoot btn backColorBleu text-white buttontextSize"
+      <NuxtLink
+        :to="{ path: '/Contact', hash: 'section-x' }"
+        v-scroll-to="{ el: '#section-x' }"
       >
-        Prendre rendez-vous
-      </button>
+        <button
+          class=" borderButtonfoot btn backColorBleu text-white buttontextSize"
+        >
+          Prendre rendez-vous
+        </button>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -330,19 +340,49 @@
 export default {
   name: "solutions",
   methods: {
-    clickAppear() {
+    clickAppear1() {
       let display1 = document.getElementById("display1");
-      let display2 = document.getElementById("display2");
-      console.log(display1);
+
       if (display1.style.display == "none" || display1.style.display == "") {
         display1.style.display = "block";
       } else {
         display1.style.display = "none";
       }
+    },
+    clickAppear2() {
+      let display2 = document.getElementById("display2");
+
       if (display2.style.display == "none" || display2.style.display == "") {
         display2.style.display = "block";
       } else {
         display2.style.display = "none";
+      }
+    },
+    clickAppear3() {
+      let display3 = document.getElementById("display3");
+
+      if (display3.style.display == "none" || display3.style.display == "") {
+        display3.style.display = "block";
+      } else {
+        display3.style.display = "none";
+      }
+    },
+    clickAppear4() {
+      let display4 = document.getElementById("display4");
+
+      if (display4.style.display == "none" || display4.style.display == "") {
+        display4.style.display = "block";
+      } else {
+        display4.style.display = "none";
+      }
+    },
+    clickAppear5() {
+      let display5 = document.getElementById("display5");
+
+      if (display5.style.display == "none" || display5.style.display == "") {
+        display5.style.display = "block";
+      } else {
+        display5.style.display = "none";
       }
     }
   }
@@ -356,17 +396,15 @@ export default {
 .displayNone:hover {
   display: block;
 }
-.sizeA {
-  width: 20em;
-}
+
 .margA {
-  padding-left: 15%;
+  padding-left: 9.5%;
 }
 .margB {
-  padding-left: 24%;
+  padding-left: 19%;
 }
 .margC {
-  padding-left: 33.5%;
+  padding-left: 29%;
 }
 .margD {
   padding-left: 48.5%;
@@ -378,14 +416,6 @@ export default {
   position: absolute;
   width: 100%;
   margin-top: -300px;
-}
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-
-  border-top: 20px solid #fdb813;
 }
 .skillColumn {
   flex-direction: column;
