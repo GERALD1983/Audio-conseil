@@ -1,5 +1,5 @@
 <template>
-  <div class="paddingTopPage">
+  <div class="paddingTopPage text-secondary">
     <div class="">
       <h1 class="flexCenter colortexteBleu">ACTUALITÉS</h1>
     </div>
