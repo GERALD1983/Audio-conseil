@@ -9,13 +9,18 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.11.2",
     "@nuxt/content": "^1.11.1",
     "@nuxtjs/axios": "^5.12.5",
+    "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.3",
+    "google-maps": "^4.3.3",
     "jump.js": "^1.0.2",
     "nuxt": "^2.14.12",
+    "nuxt-google-maps-module": "^1.6.0",
+    "vue2-google-maps": "^0.10.7",
     "vuelidate": "^0.7.6"
   },
   "devDependencies": {}

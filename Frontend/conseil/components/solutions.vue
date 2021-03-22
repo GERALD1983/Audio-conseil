@@ -1,14 +1,24 @@
 <template>
   <div>
-    <div class="colortexteBleu paddingTopPage flexCenter">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item colortexteBleu paddingTopPage flexCenter"
+    >
       <h1>NOS SOLUTIONS</h1>
     </div>
-    <div class="mt-5">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mt-5">
       <h2 class="flexCenter colortexteBleu">Aides auditives</h2>
     </div>
-    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+      <h2 class="flexCenter text-secondary">_</h2>
+    </div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte text-secondary">
+      <p
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item col-xl-8 centreTexte text-secondary"
+      >
         Seul l'audioprothésiste pourra vous conseiller sur la solution adaptée à
         vos besoins après avoir fait un bilan avec vous. Il pourra ainsi vous
         diriger vers des intra-auriculaires, des contours d'oreilles, ou des
@@ -17,8 +27,12 @@
     </div>
 
     <div class="flexCenter text-secondary">
-      <div class="col-md-8 mt-5 flexAround ">
-        <div class="aideAuditiveCarteSize">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="aos-item col-xl-8 mt-5 mobileCarteSolutions flexAround "
+      >
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img width="100%" height="250px" src="../assets/deporte.jpg" alt="" />
           <h5>Contour à écouteur déporté (RIC)</h5>
           <p>
@@ -28,7 +42,7 @@
             Esthétique et quasi invisible pour certains
           </p>
         </div>
-        <div class="aideAuditiveCarteSize">
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
             width="100%"
             height="250px"
@@ -43,7 +57,7 @@
             Moins grande autonomie
           </p>
         </div>
-        <div class="aideAuditiveCarteSize">
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
             width="100%"
             height="250px"
@@ -61,13 +75,19 @@
       </div>
     </div>
 
-    <div class="backGammes mt-5 ">
-      <div class="mt-5">
+    <div class=" mobileBackGammes backGammes mt-5 pb-5 ">
+      <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mt-5">
         <h2 class="pt-5 flexCenter colortexteBleu">Gammes</h2>
       </div>
-      <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+      <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+        <h2 class="flexCenter text-secondary">_</h2>
+      </div>
       <div class="flexCenter">
-        <p class="pb-3 col-md-8 centreTexte">
+        <p
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          class="aos-item pb-3 col-xl-8 centreTexte"
+        >
           En fonction de votre perte auditive, votre style de vie et vos
           activités déterminent le niveau de performance de traitement de
           l'information nécessaire pour améliorer l'écoute dans tous les moments
@@ -75,7 +95,7 @@
         </p>
       </div>
       <div class="flexCenter textColorGamme">
-        <div class="col-md-8">
+        <div class="col-xl-8">
           <div>
             <div id="display1" class="displayNone margSizeText margA">
               <div class="ecoText">
@@ -91,12 +111,18 @@
               </div>
             </div>
 
-            <div class="flexBetween mt-3 px-3 eco">
-              <div>Economiques</div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              class="aos-item flexBetween mt-3 px-3 mobileEco eco"
+            >
+              <div id="titreEco">Economiques</div>
               <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
                 @mouseenter="clickAppear1"
                 @mouseleave="clickAppear1"
-                class="pointerImgFooter ombreNav"
+                class="aos-item pointerImgFooter ombreNav"
               >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
@@ -115,12 +141,18 @@
                 </p>
               </div>
             </div>
-            <div class="flexBetween mt-3 px-3 basique">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              class="aos-item flexBetween mt-3 px-3 mobileBasique basique"
+            >
               <div>Basique</div>
               <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
                 @mouseenter="clickAppear2"
                 @mouseleave="clickAppear2"
-                class="pointerImgFooter ombreNav"
+                class="aos-item pointerImgFooter ombreNav"
               >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
@@ -140,12 +172,18 @@
                 </p>
               </div>
             </div>
-            <div class="flexBetween mt-3 px-3 confort">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              class="aos-item flexBetween mt-3 px-3 mobileConfort confort"
+            >
               <div>Confort</div>
               <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
                 @mouseenter="clickAppear3"
                 @mouseleave="clickAppear3"
-                class="pointerImgFooter ombreNav"
+                class="aos-item pointerImgFooter ombreNav"
               >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
@@ -166,12 +204,18 @@
                 </p>
               </div>
             </div>
-            <div class="flexBetween mt-3 px-3 avance">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              class="aos-item flexBetween mt-3 px-3 mobileAvance avance"
+            >
               <div>Avancé</div>
               <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
                 @mouseenter="clickAppear4"
                 @mouseleave="clickAppear4"
-                class="pointerImgFooter ombreNav"
+                class="aos-item pointerImgFooter ombreNav"
               >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
@@ -192,12 +236,18 @@
                 </p>
               </div>
             </div>
-            <div class="flexBetween mt-3 px-3 premium">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              class="aos-item flexBetween mt-3 px-3 mobilePremium premium"
+            >
               <div>Premium</div>
               <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
                 @mouseenter="clickAppear5"
                 @mouseleave="clickAppear5"
-                class="pointerImgFooter ombreNav"
+                class="aos-item pointerImgFooter ombreNav"
               >
                 <b-icon icon="patch-plus-fill" font-scale="1.5"></b-icon>
               </div>
@@ -206,20 +256,30 @@
         </div>
       </div>
     </div>
-    <div class="mt-5">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mt-5">
       <h2 class="flexCenter colortexteBleu">Accessoires</h2>
     </div>
-    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+      <h2 class="flexCenter text-secondary">_</h2>
+    </div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte text-secondary">
+      <p
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item col-xl-8 centreTexte text-secondary"
+      >
         Que vous soyez équipés d'aides auditives ou non, AUDIO CONSEIL a
         sélectionné pour vous une gamme complète d'accessoires d'aide à la
         communication.
       </p>
     </div>
     <div class="flexCenter">
-      <div class="col-md-8 mt-5 flexAround flex-wrap text-secondary ">
-        <div class="aideAuditiveCarteSize">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="aos-item col-xl-8 mt-5 mobileCarteSolutions flexAround flex-wrap text-secondary "
+      >
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
             width="100%"
             height="250px"
@@ -232,7 +292,7 @@
             auditives rechargeables devient de plus en plus important.
           </p>
         </div>
-        <div class="aideAuditiveCarteSize">
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img width="100%" height="250px" src="../assets/pile.jpg" alt="" />
           <h5>Piles</h5>
           <p>
@@ -240,7 +300,7 @@
             pour fonctionner correctement. Un changement infime de puissance...
           </p>
         </div>
-        <div class="aideAuditiveCarteSize">
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
             width="100%"
             height="250px"
@@ -254,7 +314,7 @@
             pannes ...
           </p>
         </div>
-        <div class="aideAuditiveCarteSize">
+        <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img width="100%" height="250px" src="../assets/phone.jpg" alt="" />
           <h5>Communications</h5>
           <p>
@@ -266,13 +326,17 @@
       </div>
     </div>
 
-    <div class="pt-5 backPartenaire text-secondary">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item pt-5 backPartenaire text-secondary"
+    >
       <div class="">
         <h2 class="flexCenter colortexteBleu">Protections</h2>
       </div>
       <div class="mb-3"><h2 class="flexCenter">_</h2></div>
       <div class="flexCenter ">
-        <p class="col-md-8 centreTexte">
+        <p class="col-xl-8 centreTexte">
           Nous avons également sélectionné pour vous toute une gamme de
           protections auditives afin de préserver vos oreilles des agressions
           extérieures et ainsi conserver votre capital auditif le plus longtemps
@@ -280,48 +344,102 @@
         </p>
       </div>
       <div class="flexCenter mt-5 pb-5">
-        <div class="flexAround col-md-8">
-          <div class="flexCenter skillColumn">
-            <div class="skillHover cercleSkill">
-              <b-icon icon="life-preserver" font-scale="3"></b-icon>
-            </div>
+        <div class="mobileSkillFlex flexAround col-xl-8">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item flexCenter skillColumn"
+          >
+            <NuxtLink
+              :to="{ path: '/Protections', hash: 'ancreBaignade' }"
+              v-scroll-to="{ el: '#ancreBaignade' }"
+            >
+              <div class="skillHover cercleSkill">
+                <b-icon
+                  class="text-secondary"
+                  icon="life-preserver"
+                  font-scale="3"
+                ></b-icon>
+              </div>
+            </NuxtLink>
             <div class="flexCenter buttontextSize text-secondary">Baignade</div>
           </div>
-          <div class="flexCenter skillColumn">
-            <div class="skillHover cercleSkill">
-              <b-icon icon="headphones" font-scale="3"></b-icon>
-            </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item mobileMargProtect flexCenter skillColumn"
+          >
+            <NuxtLink
+              :to="{ path: '/Protections', hash: 'ancreNuisance' }"
+              v-scroll-to="{ el: '#ancreNuisance' }"
+            >
+              <div class="skillHover cercleSkill">
+                <b-icon
+                  class="text-secondary"
+                  icon="headphones"
+                  font-scale="3"
+                ></b-icon>
+              </div>
+            </NuxtLink>
             <div class="flexCenter buttontextSize text-secondary">Nuisance</div>
           </div>
 
-          <div class="flexCenter skillColumn">
-            <div class="skillHover cercleSkill">
-              <b-icon icon="alarm" font-scale="3"></b-icon>
-            </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item flexCenter skillColumn"
+          >
+            <NuxtLink
+              :to="{ path: '/Protections', hash: 'ancreSommeil' }"
+              v-scroll-to="{ el: '#ancreSommeil' }"
+            >
+              <div class="skillHover cercleSkill">
+                <b-icon
+                  class="text-secondary"
+                  icon="alarm"
+                  font-scale="3"
+                ></b-icon>
+              </div>
+            </NuxtLink>
             <div class="flexCenter buttontextSize text-secondary">Sommeil</div>
           </div>
         </div>
       </div>
     </div>
-    <div class="mt-5">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mt-5">
       <h2 class="flexCenter  colortexteBleu">Notre Marque</h2>
     </div>
-    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+      <h2 class="flexCenter text-secondary">_</h2>
+    </div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte text-secondary">
+      <p
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item col-xl-8 centreTexte text-secondary"
+      >
         AUDIO CONSEIL étant une enseigne indépendante, nous sommes libres de
         vous proposer les meilleurs produits sélectionnés parmi la plus grande
         marque du marché. Votre satisfaction étant notre objectif, nous tenons
         particulièrement à répondre à vos besoins.
       </p>
     </div>
-    <div class="flexCenter">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item flexCenter"
+    >
       <img
+        class="mobileimgStarkey"
         src="../assets/starkey2.jpg"
         alt="logo prothése auditive marque starkey audition mieux entendre mieux vivre"
       />
     </div>
-    <div class="my-5 flexCenter ">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item my-5 flexCenter "
+    >
       <NuxtLink
         :to="{ path: '/Contact', hash: 'section-x' }"
         v-scroll-to="{ el: '#section-x' }"
@@ -339,6 +457,12 @@
 <script>
 export default {
   name: "solutions",
+  mounted() {
+    const eco = document.getElementById("titreEco");
+    if (window.innerWidth < 400) {
+      eco.innerHTML = "Eco";
+    }
+  },
   methods: {
     clickAppear1() {
       let display1 = document.getElementById("display1");

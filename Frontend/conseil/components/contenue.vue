@@ -1,11 +1,21 @@
 <template>
   <div>
     <div class="mt-5">
-      <h2 class="flexCenter colortexteBleu">Présentation</h2>
+      <h2
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item flexCenter colortexteBleu"
+      >
+        Présentation
+      </h2>
     </div>
     <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
-    <div class="flexCenter text-secondary ">
-      <p class="col-md-8 centreTexte">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item flexCenter text-secondary "
+    >
+      <p class="col-lg-8 centreTexte">
         Parce que nous estimons que
         <strong>Bien entendre est essentiel </strong> pour profiter pleinement
         de la vie, et que l'appareillage auditif suscite de nombreuses
@@ -14,8 +24,12 @@
         solution technique et humaine à vos problèmes d'audition.
       </p>
     </div>
-    <div class="mt-3 flexCenter text-secondary">
-      <p class="col-md-8 centreTexte">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item mt-3 flexCenter text-secondary"
+    >
+      <p class="col-lg-8 centreTexte">
         Retrouvez-nous autour de <strong> VAL FLEURI </strong>, dans notre
         magasin à <strong>CASABLANCA </strong>, spécialiste en
         <strong> AUDITION </strong>,<strong> AUDIOPROTHESE </strong> ,<strong
@@ -24,15 +38,23 @@
         ,<strong> SURDITE </strong>, <strong> PROBLEMES D'AUDITION </strong>.
       </p>
     </div>
-    <div class="mt-5 flexCenter ">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item mt-5 flexCenter "
+    >
       <NuxtLink
-        class="btn backColorBleu text-white buttontextSize"
+        class="btn borderDore backColorBleu text-white buttontextSize"
         to="/Solutions"
         >En savoir plus</NuxtLink
       >
     </div>
-    <div class="backSkill flexCenter mt-5 ">
-      <div class=" col-md-8 skillFlex  text-white">
+    <div class="mobileBackSkill backSkill flexCenter mt-5 ">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        class="aos-item col-lg-8 mobileSkillFlex skillFlex  text-white"
+      >
         <div>
           <NuxtLink to="/Contact">
             <div class="skillHover cercleSkill">
@@ -48,7 +70,7 @@
             Magasin
           </div>
         </div>
-        <div>
+        <div class="mobileMargSkill">
           <NuxtLink to="/Solutions">
             <div class="skillHover cercleSkill ">
               <b-icon
@@ -63,7 +85,7 @@
             Conseil
           </div>
         </div>
-        <div>
+        <div class="mobileMargSkill">
           <NuxtLink
             :to="{ path: '/Contact', hash: 'section-x' }"
             v-scroll-to="{ el: '#section-x' }"
@@ -80,7 +102,7 @@
             Contact
           </div>
         </div>
-        <div>
+        <div class="mobileMargSkill">
           <div @click="toProximite" class="skillHover cercleSkill">
             <b-icon
               class="text-secondary"
@@ -95,19 +117,35 @@
       </div>
     </div>
     <div class="mt-5">
-      <h2 class="flexCenter colortexteBleu">Actualités</h2>
+      <h2
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item flexCenter colortexteBleu"
+      >
+        Actualités
+      </h2>
     </div>
-    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
-    <div class="flexCenter">
-      <p class="col-md-8 centreTexte text-secondary">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+      <h2 class="flexCenter text-secondary">_</h2>
+    </div>
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item flexCenter"
+    >
+      <p class="col-lg-8 centreTexte text-secondary">
         Retrouvez régulièrement nos dernières actualités concernant l'audition.
         Nous vous informons tant sur nos offres que sur les innovations et les
         nouveautés dans le domaine de la correction auditive.
       </p>
     </div>
-    <div class="mt-5 flexCenter">
-      <div class="col-md-8 flexCarte">
-        <div class="carte1">
+    <div class="mt-5 flexCenter ">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="aos-item col-xl-10 mobileFlexCarte flexCarte"
+      >
+        <div class="mobileCarte carte1">
           <div class="pt-3  borderRad ">
             <img
               width="100%"
@@ -126,11 +164,13 @@
               :to="{ path: '/Actualites', hash: 'livio' }"
               v-scroll-to="{ el: '#livio' }"
             >
-              <button class="mt-3 btn buttonCarte">Plus de détails</button>
+              <button class="mt-3 btn borderDore buttonCarte">
+                Plus de détails
+              </button>
             </NuxtLink>
           </div>
         </div>
-        <div class="carte2">
+        <div class=" mobileMargCarte mobileCarte carte2">
           <div class="pt-3 borderRad">
             <img
               width="100%"
@@ -151,12 +191,14 @@
                 :to="{ path: '/Actualites', hash: 'oreilleNumerique' }"
                 v-scroll-to="{ el: '#oreilleNumerique' }"
               >
-                <button class="mt-3 btn buttonCarte">Plus de détails</button>
+                <button class="mt-3 btn borderDore buttonCarte">
+                  Plus de détails
+                </button>
               </NuxtLink>
             </div>
           </div>
         </div>
-        <div class="carte3">
+        <div class="mobileCarte carte3">
           <div class="pt-3 borderRad">
             <img
               width="100%"
@@ -179,26 +221,36 @@
               :to="{ path: '/Actualites', hash: 'baladeurMp3' }"
               v-scroll-to="{ el: '#baladeurMp3' }"
             >
-              <button class="mt-3 btn buttonCarte">Plus de détails</button>
+              <button class="mt-3 btn borderDore buttonCarte">
+                Plus de détails
+              </button>
             </NuxtLink>
           </div>
         </div>
       </div>
     </div>
-    <div class="mt-5 mb-5 flexCenter ">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item mt-5 mb-5 flexCenter "
+    >
       <NuxtLink
-        class="btn backColorBleu text-white buttontextSize"
+        class="btn borderDore backColorBleu text-white buttontextSize"
         to="/Actualites"
         >Toutes les actualités</NuxtLink
       >
     </div>
-    <div class="pt-5 backPartenaire2 text-secondary">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item pt-5 backPartenaire2 text-secondary"
+    >
       <div class="">
         <h2 class="flexCenter colortexteBleu">Nos partenariats</h2>
       </div>
       <div class="mb-5"><h2 class="flexCenter">_</h2></div>
       <div class="flexCenter ">
-        <p class="col-md-8 centreTexte">
+        <p class="col-lg-8 centreTexte">
           Spécialistes de la correction auditive, nous travaillons en étroite
           collaboration avec des professionnels de santé. Le médecin O.R.L. est
           notre partenaire privilégié. Il est le seul habilité à diagnostiquer
@@ -211,7 +263,7 @@
         <h3 class="flexCenter">Mutuelles</h3>
       </div>
       <div class="mt-3 pb-5 flexCenter">
-        <p class="col-md-8 centreTexte">
+        <p class="col-lg-8 centreTexte">
           La prise en charge par les mutuelles est très variable car elle dépend
           des conditions spécifiées dans votre contrat. Grace aux nombreux
           partenariats mis en place avec les réseaux de santé des mutuelles,
@@ -223,9 +275,14 @@
         </p>
       </div>
     </div>
-    <div id="proximite" class="mt-5 mb-5 flexCenter ">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      id="proximite"
+      class="aos-item mt-5 mb-5 flexCenter "
+    >
       <NuxtLink
-        class="btn backColorBleu text-white buttontextSize"
+        class="btn borderDore backColorBleu text-white buttontextSize"
         to="/Contact"
         >Contactez-nous</NuxtLink
       >
@@ -273,21 +330,21 @@ export default {
 }
 .carte1 {
   width: 30%;
-  height: 350px;
+  height: 400px;
   border: 2px solid #244d78;
   border-radius: 20px;
   background: white;
 }
 .carte2 {
   width: 30%;
-  height: 500px;
+  height: 550px;
   border: 2px solid #244d78;
   border-radius: 20px;
   background: white;
 }
 .carte3 {
   width: 30%;
-  height: 700px;
+  height: 750px;
   border: 2px solid #244d78;
   border-radius: 20px;
   background: white;

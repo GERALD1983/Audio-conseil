@@ -1,14 +1,24 @@
 <template>
   <div>
-    <div class="backHead d-flex justify-content-center align-items-center">
-      <div class="col-md-8">
-        <div class=" ">
-          <h5 class="backtitreHead1">
+    <div
+      class="mobileBackHead backHead d-flex justify-content-center align-items-center"
+    >
+      <div class="col-xl-8 col-lg-10 col-md-12">
+        <div class=" d-flex justify-content-start">
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mobileTitreHead backtitreHead1"
+          >
             Votre spécialiste en correction auditive à Casablanca
           </h5>
         </div>
         <div class=" d-flex justify-content-end">
-          <h5 class="backtitreHead2">
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mobileTitreHead backtitreHead2"
+          >
             Magasin au service de votre audition Prothése haute qualité
           </h5>
         </div>

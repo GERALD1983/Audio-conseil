@@ -214,7 +214,7 @@ export default {
         this.submitStatus = "PENDING";
 
         axios
-          .post("https://gerald-ferron.com/appsite/poster", {
+          .post("", {
             email: this.email,
             nom: this.nom,
             message: this.message,
@@ -222,7 +222,10 @@ export default {
           })
           .then(response => {
             (this.submitStatus = "OK"), console.log(response);
-            this.$router.go("/Acceuil");
+            this.$router.push("/");
+            alert(
+              "Votre message a bien été envoyer avec succés Vous allez être rediriger vers l'accueil"
+            );
           })
           .catch(
             error => ((this.submitStatus = "ERROR SERVEUR"), console.log(error))
