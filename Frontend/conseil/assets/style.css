@@ -66,3 +66,127 @@
     box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.01);
   }
 }
+
+/*media queries*/
+
+@media screen and (max-width: 1100px) {
+  .mobileBackFoot1100 {
+    height: 450px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mobileBackFoot900 {
+    height: 600px !important;
+  }
+  .mobileFlexCarte {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobileCarte {
+    width: 320px !important;
+  }
+  .mobileMargCarte {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  /*contact*/
+  .mobileCarteContact {
+    flex-direction: column;
+  }
+  .mobileCarteSizeContact {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  /*nav*/
+  .mobileNavFixed {
+    position: absolute !important;
+    z-index: 10;
+    top: 0;
+  }
+  /*mapage*/
+
+  .mobileTitreHead {
+    height: 150px !important;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .mobileBackHead {
+    background-size: cover !important;
+    background-position: 80%, 0% !important;
+  }
+  /* solutions*/
+  .mobileCarteSolutions {
+    flex-direction: column;
+  }
+  .mobileCarteSizeSolutions {
+    width: 300px !important;
+  }
+  .mobileBackGammes {
+    height: auto !important;
+  }
+  .mobileEco {
+    width: 60% !important;
+  }
+  .mobileBasique {
+    width: 70% !important;
+  }
+  .mobileConfort {
+    width: 80% !important;
+  }
+  .mobileAvance {
+    width: 90% !important;
+  }
+  .mobilePremium {
+    width: 100% !important;
+  }
+  .mobileimgStarkey {
+    width: 90% !important;
+  }
+
+  /*footer*/
+
+  .mobileFlexFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+
+    width: 100%;
+  }
+  .mobileBackFoot750 {
+    height: auto !important;
+  }
+  .mobileTailleColone {
+    height: 200px;
+    width: 80% !important;
+  }
+  .MobileFlexFootColone {
+    align-items: center !important;
+  }
+  .mobileMargFoot {
+    margin-top: 3rem;
+  }
+  .mobileFootPara {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  /*acceuil et solutions*/
+  .mobileSkillFlex {
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .mobileMargSkill {
+    margin-top: 3rem;
+  }
+  .mobileMargProtect {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .mobileBackSkill {
+    height: auto !important;
+  }
+}

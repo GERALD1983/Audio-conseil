@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="navfixed navSize d-flex justify-content-around align-items-center"
+      class="mobileNavFixed navfixed navSize d-flex justify-content-around align-items-center"
     >
       <div class="navButtonLogo">
         <img
@@ -16,6 +16,7 @@
       <div class="col-md-8 d-flex justify-content-around">
         <NuxtLink class="navButtonSize" to="/">Accueil</NuxtLink>
         <NuxtLink class="navButtonSize" to="/Solutions">Solutions</NuxtLink>
+        <NuxtLink class="navButtonSize" to="/Protections">Protections</NuxtLink>
         <NuxtLink class="navButtonSize" to="/Actualites">Actualités</NuxtLink>
         <NuxtLink class="navButtonSize" to="/Contact">Contact</NuxtLink>
       </div>

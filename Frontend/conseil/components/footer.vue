@@ -1,9 +1,15 @@
 <template>
   <div>
-    <div class="backFoot flexFootGlobal colorTextFoot">
-      <div class="flexFoot">
-        <div class="flexFootColone tailleColone">
-          <div class="mt-2 footLogoSize">
+    <div
+      class="mobileBackFoot1100 mobileBackFoot900 mobileBackFoot750 backFoot flexFootGlobal colorTextFoot"
+    >
+      <div
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        class="aos-item mt-5 mobileFlexFoot flexFoot"
+      >
+        <div class="flexFootColoneGauche mobileTailleColone tailleColone">
+          <div class="mt-2">
             <img
               @click="toTop"
               class="pointerImgFooter"
@@ -13,18 +19,21 @@
               alt="logo audio-conseil"
             />
           </div>
-
-          <button @click="clickFacebook" class="btn colorTextFoot">
-            Nous suivre sur Facebook
-            <div class=" ">
-              <b-icon icon="facebook" font-scale="2"></b-icon>
-            </div>
-          </button>
+          <div>
+            <button @click="clickFacebook" class="btn colorTextFoot">
+              Nous suivre sur Facebook
+              <div class=" ">
+                <b-icon icon="facebook" font-scale="2"></b-icon>
+              </div>
+            </button>
+          </div>
         </div>
-        <div class="flexFootColone tailleColone">
+        <div
+          class="mobileMargFoot MobileFlexFootColone flexFootColone mobileTailleColone tailleColone"
+        >
           <div><h4>Nos services</h4></div>
           <div>
-            <p>
+            <p class="mobileFootPara">
               Bilan auditif gratuit non médical <br />
               Essai de l'appareillage gratuit sur prescription médicale <br />
               Facilités de paiement <br />
@@ -33,7 +42,9 @@
             </p>
           </div>
         </div>
-        <div class="flexFootColone tailleColone">
+        <div
+          class="mobileMargFoot MobileFlexFootColone flexFootColone  mobileTailleColone tailleColone"
+        >
           <div><h4>Notre point de vente</h4></div>
           <div><p>Trouvez votre magasin à Casablanca</p></div>
           <div class="my-1 flexCenter ">
@@ -54,8 +65,13 @@
           </div>
         </div>
       </div>
-      <div class="mt-5">
-        <div class="text-center">
+      <div class="my-5 ">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-anchor=".backFoot"
+          class="mt-3 aos-item text-center"
+        >
           2021 Copyright Audio Conseil - Conception: GF-Tech
           <div>
             <div class=" ">
@@ -117,7 +133,7 @@ export default {
 .flexFootGlobal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .flexFootColone {
@@ -126,9 +142,11 @@ export default {
   justify-content: space-between;
   align-items: flex-start;
 }
-.footLogoSize {
-  height: 100px;
-  width: 100px;
+.flexFootColoneGauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .tailleColone {
   height: 200px;

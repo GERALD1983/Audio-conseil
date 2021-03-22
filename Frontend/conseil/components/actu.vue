@@ -1,11 +1,17 @@
 <template>
   <div class="paddingTopPage text-secondary">
-    <div class="">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item">
       <h1 class="flexCenter colortexteBleu">ACTUALITÉS</h1>
     </div>
-    <div class="mb-5"><h2 class="flexCenter text-secondary">_</h2></div>
+    <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item mb-5">
+      <h2 class="flexCenter text-secondary">_</h2>
+    </div>
     <div class="flexCenter">
-      <p class="col-md-8 centreTexte text-secondary">
+      <p
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        class="aos-item col-lg-8 centreTexte text-secondary"
+      >
         Retrouvez régulièrement nos dernières actualités concernant l'audition.
         Nous vous informons tant sur nos offres que sur les innovations et les
         nouveautés dans le domaine de la correction auditive.
@@ -14,16 +20,39 @@
     <div class="flexCenter">
       <div class="mt-5 col-md-8 flexColumnCenter">
         <div id="livio" class="flexColumnCenter">
-          <h2 class="flexCenter text-secondary">Nouveauté</h2>
-          <div class="pt-3 flexCenter">
-            <img src="../assets/livio.jpg" alt="appareil auditif livio Ai" />
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item flexCenter text-secondary"
+          >
+            Nouveauté
+          </h2>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item pt-3 flexCenter"
+          >
+            <img
+              class="mobileimgStarkey"
+              width="700px"
+              src="../assets/livio.jpg"
+              alt="appareil auditif livio Ai"
+            />
           </div>
 
-          <div class="mt-3 text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-3 text-center"
+          >
             Nouveauté 2021 : Les appareils auditifs LIVIO by STARKEY
           </div>
-          <div class="mt-5">
-            <h3 class="text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-5"
+          >
+            <h3 class="mb-5 text-center">
               Technologie de pointe pour une qualité sonore incroyable
             </h3>
             <p class="text-center">
@@ -36,8 +65,12 @@
               faciaux.
             </p>
           </div>
-          <div class="mt-3">
-            <h3 class="text-center">Présentation de Livio AI</h3>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-5"
+          >
+            <h3 class="mb-5 text-center">Présentation de Livio AI</h3>
             <p class="text-center">
               L’aide auditive Livio AI est unique en son genre. Grâce à des
               capteurs intégrés et à l’intelligence artificielle, Livio AI
@@ -59,21 +92,41 @@
           </div>
         </div>
         <div id="oreilleNumerique" class="mt-5 flexColumnCenter">
-          <h2 class="mb-5 flexCenter text-secondary">Dossier</h2>
-          <div class="pt-3 flexCenter">
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mb-5 flexCenter text-secondary"
+          >
+            Dossier
+          </h2>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item pt-3 flexCenter"
+          >
             <img
+              class="mobileimgStarkey"
+              width="700px"
               src="../assets/oreillenumerique.jpg"
               alt="photo oreille numérique image intérieur oreille"
             />
           </div>
 
-          <div class="mt-3 text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-3 text-center"
+          >
             Dossier : l'oreille, ce capteur numérique. L'audition repose sur un
             processus encore bien mystérieux. Les réponses dans notre dossier
             consacré à l'oreille numérique.
           </div>
-          <div class="mt-5">
-            <h3 class="text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-5"
+          >
+            <h3 class="mb-5 text-center">
               L'oreille numérique, avenir de l'audition
             </h3>
             <p class="text-center">
@@ -93,8 +146,12 @@
               élastiques de la cochlée.
             </p>
           </div>
-          <div class="mt-3">
-            <h3 class="text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-5"
+          >
+            <h3 class="mb-5 text-center">
               L'oreille interne : anatomie et physiologie
             </h3>
             <p class="text-center">
@@ -112,8 +169,10 @@
               fonctionnement de l'audition.
             </p>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="2000" class="aos-item">
             <img
+              class="mobileimgStarkey"
+              width="700px"
               src="../assets/coupeoreille1.png"
               alt="image coupe transversale oreille intérieur
            oreille différents organes de l'oreille"
@@ -121,21 +180,41 @@
           </div>
         </div>
         <div id="baladeurMp3" class="mt-5 flexColumnCenter">
-          <h2 class="mb-5 flexCenter text-secondary">Prévention</h2>
-          <div class="pt-3 flexCenter">
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mb-5 flexCenter text-secondary"
+          >
+            Prévention
+          </h2>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item pt-3 flexCenter"
+          >
             <img
+              class="mobileimgStarkey"
+              width="700px"
               src="../assets/baladeur.jpg"
               alt="photo oreille numérique image intérieur oreille"
             />
           </div>
 
-          <div class="mt-3 text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-3 text-center"
+          >
             Écouter la musique trop fort peut causer des dégâts irréversibles
             dans les oreilles. Et ainsi accélérer le processus de perte de
             l'audition liée à l'âge.
           </div>
-          <div class="mt-5">
-            <h3 class="text-center">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="aos-item mt-5"
+          >
+            <h3 class="mb-5 text-center">
               Prévention : le dossier sur les troubles de l'audition
             </h3>
             <p class="text-center">
@@ -159,11 +238,19 @@
               baladeurs audio.
             </p>
           </div>
-          <div class="mt-3">
-            <h3 class="text-center">
+          <div class="mt-5">
+            <h3
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              class="mb-5 aos-item text-center"
+            >
               Le MP3 responsable des deux-tiers des expositions nuisibles
             </h3>
-            <p class="text-center">
+            <p
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              class="aos-item text-center"
+            >
               Les résultats obtenus ont été surprenants, puisque 90 % des
               usagers des transports s'exposaient à des sonorités trop bruyantes
               durant l'année. Les moyens de locomotion en eux-mêmes n'expliquent
@@ -181,10 +268,18 @@
               comme avec des vecteurs de cancers ou de maladies chroniques. Mais
               pour l'exposition sonore, on le fait. »
             </p>
-            <h3 class="text-center">
+            <h3
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              class="my-5 aos-item text-center"
+            >
               Des dégâts auditifs irréversibles
             </h3>
-            <p class="text-center">
+            <p
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              class="aos-item text-center"
+            >
               Pour donner un ordre d'idée, une conversation banale présente
               environ 60 décibels (dB), les transports en commun peuvent monter
               jusqu'à 80 dB, la limite du bruit au travail est de 87 dB, une
@@ -206,12 +301,21 @@
             </p>
           </div>
           <div class="mt-5">
-            <img
-              src="../assets/oreilleshema.jpg"
-              alt="image coupe transversale oreille intérieur
+            <div data-aos="fade-up" data-aos-duration="2000" class="aos-item">
+              <img
+                class="mobileimgStarkey"
+                width="700px"
+                src="../assets/oreilleshema.jpg"
+                alt="image coupe transversale oreille intérieur
            oreille différents organes de l'oreille"
-            />
-            <p class="text-center">
+              />
+            </div>
+
+            <p
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              class="my-5 aos-item text-center"
+            >
               L'audition est un sens complexe faisant intervenir différents
               acteurs, du pavillon servant à capter un maximum de sons jusqu'aux
               nerfs pour acheminer l'information jusqu'au cerveau pour que
@@ -222,9 +326,13 @@
         </div>
       </div>
     </div>
-    <div class="mt-5 mb-5 flexCenter ">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      class="aos-item mt-5 mb-5 flexCenter "
+    >
       <NuxtLink
-        class="btn backColorBleu text-white buttontextSize"
+        class="btn borderDore backColorBleu text-white buttontextSize"
         to="/Contact"
         >Demandez un devis gratuit</NuxtLink
       >
