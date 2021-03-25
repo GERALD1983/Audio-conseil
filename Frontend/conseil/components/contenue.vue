@@ -296,6 +296,7 @@ export default {
   name: "contenue",
   methods: {
     toProximite() {
+      //
       // window.scrollTo(0, 400);
       jump("#proximite", {
         duration: 1000,
