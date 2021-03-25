@@ -90,6 +90,18 @@
               accès à de multiples fonctions et services d’information.
             </p>
           </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="aos-item pt-3 flexCenter"
+          >
+            <img
+              class="mobileimgStarkey"
+              width="700px"
+              src="../assets/livio2.jpg"
+              alt="appareil auditif livio Ai"
+            />
+          </div>
         </div>
         <div id="oreilleNumerique" class="mt-5 flexColumnCenter">
           <h2
@@ -107,7 +119,7 @@
             <img
               class="mobileimgStarkey"
               width="700px"
-              src="../assets/oreillenumerique.jpg"
+              src="../assets/oreille.jpg"
               alt="photo oreille numérique image intérieur oreille"
             />
           </div>
@@ -173,7 +185,7 @@
             <img
               class="mobileimgStarkey"
               width="700px"
-              src="../assets/coupeoreille1.png"
+              src="../assets/oreille2.png"
               alt="image coupe transversale oreille intérieur
            oreille différents organes de l'oreille"
             />
@@ -195,7 +207,7 @@
             <img
               class="mobileimgStarkey"
               width="700px"
-              src="../assets/baladeur.jpg"
+              src="../assets/mp3.jpg"
               alt="photo oreille numérique image intérieur oreille"
             />
           </div>
@@ -305,7 +317,7 @@
               <img
                 class="mobileimgStarkey"
                 width="700px"
-                src="../assets/oreilleshema.jpg"
+                src="../assets/shema.jpg"
                 alt="image coupe transversale oreille intérieur
            oreille différents organes de l'oreille"
               />

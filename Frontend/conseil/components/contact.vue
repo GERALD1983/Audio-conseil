@@ -32,12 +32,12 @@
           class="aos-item mobileCarteSizeContact aideAuditiveCarteSize"
         >
           <img
-            width="100%"
+            width="295px"
             height="250px"
-            src="../assets/magasin1.png"
-            alt=""
+            src="../assets/magasin.png"
+            alt="image magasin audio conseil votre expert en audition ,audioprothésiste vente de prothése auditive"
           />
-          <h5>Magasin</h5>
+          <h4>Magasin</h4>
           <p>
             Audio Conseil <br />
             Rue George sand à Val fleuri <br />
@@ -52,12 +52,12 @@
           class="aos-item mobileCarteSizeContact aideAuditiveCarteSize"
         >
           <img
-            width="100%"
+            width="295px"
             height="250px"
-            src="../assets/magasin2.jpg"
-            alt=""
+            src="../assets/materiel.jpg"
+            alt="image matériel de prise de mesures auditive, appareils d'examen auditif, appareils de mesure d'audition de l'audiologiste"
           />
-          <h5>Horaire</h5>
+          <h4>Horaire</h4>
           <p>
             Lundi: 10h à 13h / 15h à 18h <br />
             Mardi: 10h à 13h / 15h à 18h <br />
@@ -75,10 +75,10 @@
           <img
             width="100%"
             height="250px"
-            src="../assets/magasin3.jpg"
-            alt=""
+            src="../assets/equipements.jpg"
+            alt="image vitrine equipements pour surdité , malentendants equipements auditifs, appareils d'auditions"
           />
-          <h5>Equipe</h5>
+          <h4>Equipe</h4>
           <p>
             Notre équipe vous accueille en magasin <br />
             Prise de mesures <br />
@@ -97,7 +97,6 @@
       style="width: 100%; height: 500px"
     >
       <GmapMarker
-        :key="index"
         :position="
           (center = { lat: 33.57704111851915, lng: -7.635868929196996 })
         "

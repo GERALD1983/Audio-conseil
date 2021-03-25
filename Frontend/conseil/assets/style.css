@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.stopMargPad {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .paddingTopPage {
   padding-top: 150px;
 }
@@ -68,10 +72,21 @@
 }
 
 /*media queries*/
+@media screen and (max-width: 1200px) {
+  .margMobile1200 {
+    padding-left: 0 !important;
+    width: 90% !important;
+  }
+}
 
 @media screen and (max-width: 1100px) {
   .mobileBackFoot1100 {
     height: 450px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .sizeLinkMobile {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 900px) {
@@ -83,7 +98,7 @@
     align-items: center;
   }
   .mobileCarte {
-    width: 320px !important;
+    width: 299px !important;
   }
   .mobileMargCarte {
     margin-top: 3rem;
@@ -188,5 +203,15 @@
   }
   .mobileBackSkill {
     height: auto !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  /*solutions*/
+  .ecoTextMobile {
+    width: 300px !important;
+    height: 350px !important;
+  }
+  .margSizeTextMobile {
+    margin-top: -350px !important;
   }
 }
