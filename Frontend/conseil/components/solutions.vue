@@ -30,10 +30,15 @@
       <div
         data-aos="fade-up"
         data-aos-duration="2000"
-        class="aos-item col-xl-8 mt-5 mobileCarteSolutions flexAround "
+        class="aos-item col-xl-8 mt-5 mobileCarteSolutions flexAround flex-wrap"
       >
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
-          <img width="100%" height="250px" src="../assets/deporte.jpg" alt="" />
+          <img
+            width="295px"
+            height="250px"
+            src="../assets/lunette.jpg"
+            alt="image appareil auditif contour à écouteur déporté (RIC) "
+          />
           <h5>Contour à écouteur déporté (RIC)</h5>
           <p>
             Destiné aux pertes faibles à sévères <br />
@@ -44,10 +49,10 @@
         </div>
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
-            width="100%"
+            width="295px"
             height="250px"
-            src="../assets/intraauculaire.jpg"
-            alt=""
+            src="../assets/table.jpg"
+            alt="photo prothése auditive à écouteur intra-auriculaire"
           />
           <h5>Intra-auriculaire</h5>
           <p>
@@ -59,10 +64,10 @@
         </div>
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
-            width="100%"
+            width="295px"
             height="250px"
-            src="../assets/audition.jpg"
-            alt=""
+            src="../assets/contourOreille.jpg"
+            alt="image appreil d'audition à contour d'oreille"
           />
           <h5>Contour d'oreille</h5>
           <p>
@@ -97,9 +102,12 @@
       <div class="flexCenter textColorGamme">
         <div class="col-xl-8">
           <div>
-            <div id="display1" class="displayNone margSizeText margA">
-              <div class="ecoText">
-                <p>
+            <div
+              id="display1"
+              class="displayNone margSizeText margSizeTextMobile margA margMobile1200"
+            >
+              <div class="ecoText ecoTextMobile">
+                <p class="text-center">
                   <strong>Style de vie très calme</strong>, <br />
                   recommandé pour des personnes évoluant dans des environnements
                   très calmes. Idéal pour des
@@ -129,9 +137,12 @@
             </div>
           </div>
           <div>
-            <div id="display2" class="displayNone margSizeText margB">
-              <div class="ecoText">
-                <p>
+            <div
+              id="display2"
+              class="displayNone margSizeText margSizeTextMobile margB margMobile1200"
+            >
+              <div class="ecoText ecoTextMobile">
+                <p class="text-center">
                   <strong>Style de vie calme</strong>, <br />
                   recommandé pour des personnes évoluant rarement dans des
                   environnements bruyants. Idéal<strong>
@@ -159,9 +170,12 @@
             </div>
           </div>
           <div>
-            <div id="display3" class="displayNone margSizeText margC">
-              <div class="ecoText">
-                <p>
+            <div
+              id="display3"
+              class="displayNone margSizeText margSizeTextMobile margC margMobile1200"
+            >
+              <div class="ecoText ecoTextMobile">
+                <p class="text-center">
                   <strong>Style de vie active</strong>, <br />
                   recommandé pour des personnes évoluant de temps en temps dans
                   des environnements bruyants. Idéal pour améliorer une
@@ -190,9 +204,12 @@
             </div>
           </div>
           <div>
-            <div id="display4" class="displayNone margSizeText margD">
-              <div class="ecoText">
-                <p>
+            <div
+              id="display4"
+              class="displayNone margSizeText margSizeTextMobile margD margMobile1200"
+            >
+              <div class="ecoText ecoTextMobile">
+                <p class="text-center">
                   <strong>Style de vie dynamique</strong>, <br />
                   recommandé pour des personnes actives évoluant régulièrement
                   dans des environnements bruyants et multiples. Idéal pour être
@@ -222,16 +239,19 @@
             </div>
           </div>
           <div>
-            <div id="display5" class="displayNone margSizeText margE">
-              <div class="ecoText">
-                <p>
+            <div
+              id="display5"
+              class="displayNone margSizeText margSizeTextMobile margE margMobile1200"
+            >
+              <div class="ecoText ecoTextMobile">
+                <p class="text-center">
                   <strong>Style de vie intense</strong>, <br />
                   recommandé pour des personnes très actives évoluant
                   fréquemment dans des environnements très bruyants et
                   complexes. Idéal pour être à l'aise
                   <strong
-                    >en voiture, dans des soirées, cocktails, ou au milieu de la
-                    foule, et même optimiser l'écoute de la musique</strong
+                    >en voiture, dans des soirées, cinéma, ou au milieu de la
+                    foule, et même optimiser l'écoute des sons</strong
                   >.
                 </p>
               </div>
@@ -281,10 +301,10 @@
       >
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
-            width="100%"
+            width="295px"
             height="250px"
             src="../assets/chargeur.jpg"
-            alt=""
+            alt="image chargeur pour les prothéses d'auditions starkey rechargeable"
           />
           <h5>Chargeur</h5>
           <p>
@@ -293,7 +313,12 @@
           </p>
         </div>
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
-          <img width="100%" height="250px" src="../assets/pile.jpg" alt="" />
+          <img
+            width="295px"
+            height="250px"
+            src="../assets/pile1.jpg"
+            alt="photo pile de rechange pour les appareils d'auditions , boite de piles prothése auditive"
+          />
           <h5>Piles</h5>
           <p>
             Votre prothèse auditive a besoin de piles adaptées et de qualité
@@ -302,10 +327,10 @@
         </div>
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
           <img
-            width="100%"
+            width="295px"
             height="250px"
-            src="../assets/entretien2.png"
-            alt=""
+            src="../assets/nettoyant.png"
+            alt="image produit de nettoyage prothése auditive , entretien appareil auditif"
           />
           <h5>Produits d'entretien</h5>
           <p>
@@ -315,7 +340,13 @@
           </p>
         </div>
         <div class="mobileCarteSizeSolutions aideAuditiveCarteSize">
-          <img width="100%" height="250px" src="../assets/phone.jpg" alt="" />
+          <img
+            width="295px"
+            height="250px"
+            src="../assets/portable.jpg"
+            alt="photo prothése equiper pour les téléphones portables et les mp3,
+             appareils auditif relier aux appareils numériques"
+          />
           <h5>Communications</h5>
           <p>
             La technologie évolue, il est désormais possible de recevoir
@@ -431,6 +462,7 @@
     >
       <img
         class="mobileimgStarkey"
+        width="665px"
         src="../assets/starkey2.jpg"
         alt="logo prothése auditive marque starkey audition mieux entendre mieux vivre"
       />
@@ -582,7 +614,7 @@ export default {
   background-color: rgba(97, 161, 1, 0.7);
 }
 .aideAuditiveCarteSize {
-  width: 30%;
+  width: 295px;
   height: 500px;
 }
 .backGammes {

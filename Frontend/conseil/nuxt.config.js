@@ -1,16 +1,26 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  render: {
+    static: {
+      maxAge: 2592000
+    }
+  },
   head: {
-    title: "conseil",
+    title: "Audio Conseil audiologiste audioprothésiste",
     htmlAttrs: {
-      lang: "en"
+      lang: "fr"
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Audiologiste spécialiste en surdité examen auditif gratuit, audioprothésiste à Casablanca pour mal-entendants.Nous serons trouver une solutions à vos problémes d'audition,magasin de prothéses auditives"
+      }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/icon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -34,13 +44,19 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // Simple usage
+    "@nuxtjs/dotenv",
     // https://go.nuxtjs.dev/bootstrap
     "bootstrap-vue/nuxt",
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
     // With options
+    "vue-scrollto/nuxt",
+
+    // Or if you have custom options...
+    ["vue-scrollto/nuxt", { duration: 300 }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

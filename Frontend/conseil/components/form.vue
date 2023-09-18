@@ -214,7 +214,7 @@ export default {
         this.submitStatus = "PENDING";
 
         axios
-          .post("", {
+          .post(process.env.DOMAIN, {
             email: this.email,
             nom: this.nom,
             message: this.message,

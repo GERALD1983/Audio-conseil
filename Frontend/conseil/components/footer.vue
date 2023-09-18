@@ -15,7 +15,7 @@
               class="pointerImgFooter"
               width="150px"
               height="80px"
-              src="../assets/logo.png"
+              src="../assets/logo2.png"
               alt="logo audio-conseil"
             />
           </div>
@@ -31,7 +31,7 @@
         <div
           class="mobileMargFoot MobileFlexFootColone flexFootColone mobileTailleColone tailleColone"
         >
-          <div><h4>Nos services</h4></div>
+          <h5>Nos services</h5>
           <div>
             <p class="mobileFootPara">
               Bilan auditif gratuit non médical <br />
@@ -45,7 +45,7 @@
         <div
           class="mobileMargFoot MobileFlexFootColone flexFootColone  mobileTailleColone tailleColone"
         >
-          <div><h4>Notre point de vente</h4></div>
+          <h5>Notre point de vente</h5>
           <div><p>Trouvez votre magasin à Casablanca</p></div>
           <div class="my-1 flexCenter ">
             <NuxtLink

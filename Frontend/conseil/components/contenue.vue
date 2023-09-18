@@ -143,14 +143,14 @@
       <div
         data-aos="fade-up"
         data-aos-duration="2000"
-        class="aos-item col-xl-10 mobileFlexCarte flexCarte"
+        class="aos-item col-xl-10 mobileFlexCarte flexCarte flex-wrap"
       >
         <div class="mobileCarte carte1">
           <div class="pt-3  borderRad ">
             <img
-              width="100%"
+              width="295px"
               height="150px"
-              src="../assets/livio.jpg"
+              src="../assets/livioMini.jpg"
               alt="appareil auditif livio Ai"
             />
           </div>
@@ -173,9 +173,9 @@
         <div class=" mobileMargCarte mobileCarte carte2">
           <div class="pt-3 borderRad">
             <img
-              width="100%"
+              width="295px"
               height="220px"
-              src="../assets/oreillenumerique.jpg"
+              src="../assets/oreilleNumeriqueMini.jpg"
               alt="photo oreille numérique image intérieur oreille"
             />
           </div>
@@ -201,9 +201,9 @@
         <div class="mobileCarte carte3">
           <div class="pt-3 borderRad">
             <img
-              width="100%"
+              width="295px"
               height="300px"
-              src="../assets/baladeur.jpg"
+              src="../assets/baladMini.jpg"
               alt="photo nuisance des baladeurs et des casques sur les oreilles, nuisances sonores"
             />
           </div>
@@ -296,6 +296,7 @@ export default {
   name: "contenue",
   methods: {
     toProximite() {
+      //
       // window.scrollTo(0, 400);
       jump("#proximite", {
         duration: 1000,
@@ -329,21 +330,21 @@ export default {
   color: white;
 }
 .carte1 {
-  width: 30%;
+  width: 299px;
   height: 400px;
   border: 2px solid #244d78;
   border-radius: 20px;
   background: white;
 }
 .carte2 {
-  width: 30%;
+  width: 299px;
   height: 550px;
   border: 2px solid #244d78;
   border-radius: 20px;
   background: white;
 }
 .carte3 {
-  width: 30%;
+  width: 299px;
   height: 750px;
   border: 2px solid #244d78;
   border-radius: 20px;

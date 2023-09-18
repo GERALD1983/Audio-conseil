@@ -99,8 +99,7 @@
             class="aos-item py-5 flexCenter"
           >
             <img
-              class="mobileimgStarkey"
-              width="400px"
+              width="300px"
               src="../assets/baignade.jpg"
               alt="photo bouchons sport natation protection pour la baignade et l'eau dans les oreilles"
             />
@@ -128,7 +127,7 @@
             <img
               class="mobileimgStarkey"
               width="700px"
-              src="../assets/bouchonchantier.jpg"
+              src="../assets/chantier.jpg"
               alt="image bouchons pour le bruit et la nuisance sonore environnement bruyant musique forte"
             />
           </div>
@@ -198,9 +197,8 @@
             class="aos-item py-5 flexCenter"
           >
             <img
-              class="mobileimgStarkey"
-              width="400px"
-              src="../assets/nuisance.png"
+              width="300px"
+              src="../assets/bruit.jpg"
               alt="photo bouchons nuisance sonores protection anti-bruit nuisible musique avion metro ville"
             />
           </div>
@@ -301,8 +299,7 @@
             class="aos-item py-5 flexCenter"
           >
             <img
-              class="mobileimgStarkey"
-              width="400px"
+              width="300px"
               src="../assets/sommeil2.png"
               alt="image bouchons natation protection pour la baignade"
             />
