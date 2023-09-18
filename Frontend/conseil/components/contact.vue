@@ -43,7 +43,7 @@
             Rue George sand à Val fleuri <br />
             à côté de la ctm à Casablanca <br />
             Tel: 05 22 98 16 50 <br />
-            Mob: 06 00 61 44 37
+            <!--  Mob: 06 00 61 44 37 -->
           </p>
         </div>
         <div
@@ -91,8 +91,8 @@
     </div>
 
     <GmapMap
-      :center="{ lat: 33, lng: -5 }"
-      :zoom="7"
+      :center="{ lat: 33.5737819, lng: -7.6105417 }"
+      :zoom="13"
       map-type-id="terrain"
       style="width: 100%; height: 500px"
     >
